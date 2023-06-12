@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 
-import { Context } from "../../../front-back/js/store/appContext";
+import { Context } from "../store/appContext";
 
 import "../../styles/description.css";
 import { Description } from "../component/description.jsx";
