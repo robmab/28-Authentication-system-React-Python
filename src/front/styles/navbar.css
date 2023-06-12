@@ -1,0 +1,99 @@
+/* * {
+  border: 1px solid red;
+} */
+
+nav {
+  justify-content: center !important;
+  padding: 20px 0 !important;
+}
+
+nav > div {
+  display: flex;
+  width: 79% !important;
+}
+
+.logo {
+  margin: 4px 0 !important;
+  line-height: 0 !important;
+}
+
+/* FAVOURITES */
+.dropdown {
+  display: flex;
+}
+
+.dropdown button {
+  display: flex !important;
+  align-items: center;
+
+  margin-left: auto;
+  padding: 10px 20px !important;
+  font-size: 18px !important;
+}
+
+.dropdown button > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  height: 18px;
+  width: 18px;
+  margin-left: 0.25rem;
+  border-radius: 5px;
+
+  background-color: grey;
+}
+
+.dropdown button > div > p {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dropdown ul {
+  padding: 0 !important;
+}
+.dropdown ul > p {
+  padding: 0.5em 1.3em;
+  margin: 0;
+}
+.dropdown li {
+  display: flex;
+
+  padding: 0.5em 1em;
+  border: 1px solid rgba(133, 132, 132, 0.311);
+}
+
+.dropdown li > a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(44, 142, 212);
+  width: 7em;
+}
+
+.dropdown li svg {
+  margin: auto 0 auto auto;
+  padding-left: 0.3em;
+  cursor: crosshair;
+}
+
+/* LOGIN */
+.dropdown > button > a{
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 720px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 0.5em;
+  }
+}
+
+/* .dropdown-menu{
+  transform: translate3d(5px, 35px, 0px)!important;
+} */

@@ -1,7 +1,51 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.home-wrapper {
+  margin-top: 1em;
+  width: 81%;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.home-wrapper > h1 {
+  color: #da203b;
+  font-size: 2em;
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+}
+
+/* CARD */
+
+.card-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  margin-bottom: 2em;
+  padding: 0 0.9em;
+}
+
+@media (max-width: 720px) {
+  .home-wrapper {
+    
+    width: 100%;
+  }
+}
+
+/* SCROLLBAR */
+/* Track CHROME*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: solid 2px rgba(224, 224, 224, 0.5);
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: #909090;
+}

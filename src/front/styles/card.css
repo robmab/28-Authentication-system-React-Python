@@ -1,0 +1,42 @@
+.card {
+  display: inline-block !important;
+  white-space: break-spaces;
+  user-select: none;
+
+  width: 17em !important;
+  margin: 0 0 1em 2em;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.card:nth-child(1) {
+  margin-left: 0 !important;
+}
+
+.card > div {
+  user-select: text;
+}
+
+.card > div > div {
+  display: flex;
+}
+
+.card a:nth-last-child(1) {
+  margin-left: auto;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 100% !important;
+  }
+  .card img {
+    height: 100%;
+  }
+}
