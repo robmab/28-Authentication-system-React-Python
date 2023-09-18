@@ -11,10 +11,11 @@
 
 ### Responsive
 
+![Proyecto sin título](https://github.com/robmab/SW_React_Python/assets/56076087/40ac83ae-0729-4d07-b32c-5ce98977130d)
 
 ### Technologies
 
 > React, Python, Axios, SWL, Flask
 
->[!NOTES]
+>[!NOTE]
 > **LocalStorage** is used to saved information of elements of the page to avoid database requests. It is also used to save user favourites
